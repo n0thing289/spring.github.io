@@ -1,0 +1,2 @@
+仓库地址：plugins-release/org/springframework/spring/6.0.0-M2/
+spring6.0.0-M2下载链接：https://repo.spring.io/artifactory/plugins-release/org/springframework/spring/6.0.0-M2/
