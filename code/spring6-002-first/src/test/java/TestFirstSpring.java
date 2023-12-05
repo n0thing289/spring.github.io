@@ -1,8 +1,31 @@
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestFirstSpring {
+    /**
+     * 测试第一个细节:怎么实例化对象的?
+     *      通过反射机制,调用类的无参构造器来实例化对象
+     */
+    @Test
+    public void testNewInstance(){
+        // 获取spring容器
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring.xml");
+        // 获取对象, 获取配置文件中配置bean
+        Object obj = applicationContext.getBean("userBean");
+        System.out.println(obj);
+
+        Logger logger = LoggerFactory.getLogger(TestFirstSpring.class);
+        logger.info("我是一条日志消息");
+        logger.debug("我是一条调试信息");
+        logger.error("我是一条错误信息");
+    }
+
+    /**
+     * 测试第一个入门程序
+     */
     @Test
     public void testFirstSpringCode(){
         // 第一步:获取Spring容器对象。
@@ -14,7 +37,7 @@ public class TestFirstSpring {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring.xml");
 
         // 第二步 根据bean和id从spring容器中获取这个对象
-        Object obj = applicationContext.getBean("userDaoBean");
+        Object obj = applicationContext.getBean("vipUserBean");
         System.out.println(obj);
     }
 }

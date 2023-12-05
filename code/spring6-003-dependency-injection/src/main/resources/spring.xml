@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--
+        用于测试set注入
+    -->
+
+
+    <bean id="vipDaoBean" class="dao.VipDao"/>
+    <!--    配置UserDao-->
+    <bean id="userDaoBean" class="dao.UserDao"/>
+    <!--    配置UserService-->
+    <bean id="userServiceBean" class="service.UserService">
+        <!--想让spring调用对应的set方法,需要配置property标签-->
+        <!--name: set方法名去掉set,再把首字母小写-->
+        <!--ref: 指定要注入的bean的id-->
+<!--        <property name="mySQLUserDao" ref="userDaoBean"/>-->
+        <property name="userDao" ref="userDaoBean"/>
+        <!--测试后得知,这里的name本质上不是写属性名,只是建议和属性名一样->等于写属性名-->
+<!--        <property name="abc" ref="vipDaoBean"/>-->
+    </bean>
+</beans>

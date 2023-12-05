@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="person" class="bean.Person">
+        <!--注入Properties-->
+        <property name="properties">
+            <props>
+                <prop key="driver">com.mysql.jdbc.driver</prop>
+                <prop key="url">mysql://localhost:3306/powernode</prop>
+                <prop key="user">root</prop>
+                <prop key="password">hsp</prop>
+            </props>
+        </property>
+        <!--注入map-->
+        <property name="phones">
+            <map>
+                <!--如果key或者value是非简单类型的,使用key-ref或者value-ref-->
+                <entry key="110" value="报警电话"/>
+                <entry key="120" value="急救电话"/>
+                <entry key="119" value="火警电话"/>
+            </map>
+        </property>
+        <!--注入list-->
+        <property name="friends">
+            <list>
+                <value>张三</value>
+                <value>李四</value>
+                <value>王五</value>
+                <value>王五</value>
+                <value>王五</value>
+                <value>王五</value>
+            </list>
+        </property>
+        <!--注入map-->
+        <property name="addrs">
+            <set>
+                <value>北京</value>
+                <value>上海</value>
+                <value>深圳</value>
+                <value>深圳</value>
+                <value>深圳</value>
+            </set>
+        </property>
+    </bean>
+</beans>

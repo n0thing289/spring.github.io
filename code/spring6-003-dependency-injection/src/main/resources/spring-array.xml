@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="girl1" class="bean.Girl">
+        <property name="name" value="小美"/>
+    </bean>
+    <bean id="girl2" class="bean.Girl">
+        <property name="name" value="小美眉"/>
+    </bean>
+    <bean id="girl3" class="bean.Girl">
+        <property name="name" value="小红"/>
+    </bean>
+
+    <bean id="yuQian" class="bean.QianDaYe">
+        <!--注入数组之简单类型-->
+        <property name="aiHaos">
+            <array>
+                <value>抽烟</value>
+                <value>喝酒</value>
+                <value>吃肥肉</value>
+            </array>
+        </property>
+
+        <!--注入数组之自定义类型-->
+        <property name="girls">
+            <array>
+                <ref bean="girl1"/>
+                <ref bean="girl2"/>
+                <ref bean="girl3"/>
+            </array>
+        </property>
+    </bean>
+</beans>

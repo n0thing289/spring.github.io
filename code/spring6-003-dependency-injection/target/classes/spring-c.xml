@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        第一步,开启c命名空间xmlns:c="http://www.springframework.org/schema/c"
+        第二步,使用
+    -->
+    <bean id="peopleBean" class="bean.People" c:_0="homo" c:_1="20" c:_2="false"/>
+<!--    <bean id="peopleBean" class="bean.People" c:name="LGBT" c:age="20" c:sex="false"/>-->
+</beans>

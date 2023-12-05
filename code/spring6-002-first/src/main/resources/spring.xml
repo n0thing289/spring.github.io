@@ -15,5 +15,6 @@
             cLass: 必须填写类的全路径，全限定类名。 (带包名的类名)
     -->
     <bean id="userBean" class="bean.User"/>
+    <bean id="vipUserBean" class="bean.VipUser"/>
     <bean id="userDaoBean" class="dao.UserDaoImplForMySQL"/>
 </beans>
