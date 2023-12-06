@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--根据类型进行自动装配-->
+    <!--
+    根据类型进行自动装配的时候, 在有效的配置文件当中,某种类型的实例只能有一个
+    -->
+    <bean class="dao.UserDao"/>
+    <bean class="dao.VipDao"/>
+    <bean id="cs" class="service.CustomerService" autowire="byType"/>
+
+    <!--根据名字进行自动装配-->
+    <!--自动装配也是基于set方式实现的-->
+    <bean id="orderServiceBean" class="service.OrderService" autowire="byName"/>
+    <!--根据名字进行自动装配的时候,被注入的对象的bean的id就不能随便写了,怎么写? set方法的方法名取掉set,剩下单词首字母小写
+-->
+    <bean id="orderDao" class="dao.OrderDao"/>
+
+    <!--    <bean id="orderDaoBean" class="dao.OrderDao"/>-->
+    <!--    <bean id="orderServiceBean" class="service.OrderService">-->
+    <!--        <property name="orderDao" ref="orderDaoBean"/>-->
+    <!--    </bean>-->
+</beans>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+    <!--开启util命名空间
+        第一步:
+            xmlns:util="http://www.springframework.org/schema/util"
+            http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+        第二步
+            进行复用
+    -->
+    <util:properties id="prop">
+        <prop key="driver">com.mysql.jdbc.driver</prop>
+        <prop key="url">jdbc:mysql://localhost:3306/spring6</prop>
+        <prop key="user">root</prop>
+        <prop key="password">hsp</prop>
+    </util:properties>
+
+    <bean id="mds1" class="jdbc.MyDataSource1">
+        <!--进行复用-->
+        <property name="properties" ref="prop"/>
+    </bean>
+
+    <bean id="mds2" class="jdbc.MyDataSource2">
+        <!--进行复用-->
+        <property name="properties" ref="prop"/>
+    </bean>
+
+<!--    <bean id="mds2" class="jdbc.MyDataSource2">-->
+<!--        <property name="properties">-->
+<!--            <props>-->
+<!--                <prop key="driver">com.mysql.jdbc.driver</prop>-->
+<!--                <prop key="url">jdbc:mysql://localhot:3306/spring6</prop>-->
+<!--                <prop key="user">root</prop>-->
+<!--                <prop key="password">hsp</prop>-->
+<!--            </props>-->
+<!--        </property>-->
+<!--    </bean>-->
+</beans>

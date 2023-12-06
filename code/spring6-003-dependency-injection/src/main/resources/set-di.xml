@@ -34,7 +34,7 @@
         <property name="age" value="2"/>
     </bean>
 
-    <bean id="myDataSourceBean" class="jbdc.MyDataSource">
+    <bean id="myDataSourceBean" class="jdbc.MyDataSource">
         <property name="driver" value="com.mysql.jdbc.driver"/>
         <property name="url" value="mysql://localhost:3306/powernode"/>
         <property name="user" value="root"/>

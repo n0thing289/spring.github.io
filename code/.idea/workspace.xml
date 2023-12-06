@@ -5,24 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a7e8c3-588c-4d6b-823c-3dffb2515365" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j2_impl_2_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/spring6-003-dependency-injection.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring笔记/spring笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring笔记/spring笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-002-first/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-002-first/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-002-first/spring6-002-first.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-002-first/spring6-002-first.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-002-first/src/main/java/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-002-first/src/main/java/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-002-first/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-002-first/src/main/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-002-first/src/test/java/TestFirstSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-002-first/src/test/java/TestFirstSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-002-first/target/classes/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-002-first/target/classes/bean/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-002-first/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-002-first/target/classes/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-002-first/target/test-classes/TestFirstSpring.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-002-first/target/test-classes/TestFirstSpring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/spring6-003-dependency-injection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/spring6-003-dependency-injection.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/jbdc/MyDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/jdbc/MyDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/set-di.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/set-di.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/test/java/TestSpringDI.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/test/java/TestSpringDI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/target/classes/jbdc/MyDataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/target/classes/set-di.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/target/classes/set-di.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/target/classes/spring-c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/target/classes/spring-c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/target/test-classes/TestSpringDI.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/target/test-classes/TestSpringDI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring观看进度.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring观看进度.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +81,27 @@
       <recent name="D:\编程文件\Spring老杜\spring.github.io\code\spring6-003-dependency-injection\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestSpringDI.testCNameSpace">
+  <component name="RunManager" selected="JUnit.TestSpringDI.testProperties">
+    <configuration name="TestSpringDI.testAutoWire" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-003-dependency-injection" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSpringDI" />
+      <option name="METHOD_NAME" value="testAutoWire" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpringDI.testAutoWireByType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-003-dependency-injection" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSpringDI" />
+      <option name="METHOD_NAME" value="testAutoWireByType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestSpringDI.testCNameSpace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring6-003-dependency-injection" />
       <option name="PACKAGE_NAME" value="" />
@@ -99,41 +112,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSpringDI.testMapOrProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSpringDI.testProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring6-003-dependency-injection" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestSpringDI" />
-      <option name="METHOD_NAME" value="testMapOrProperties" />
+      <option name="METHOD_NAME" value="testProperties" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSpringDI.testNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSpringDI.testUtilNameSpace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring6-003-dependency-injection" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestSpringDI" />
-      <option name="METHOD_NAME" value="testNull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSpringDI.testPNameSpace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-003-dependency-injection" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSpringDI" />
-      <option name="METHOD_NAME" value="testPNameSpace" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSpringDI.testSpecialChar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-003-dependency-injection" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSpringDI" />
-      <option name="METHOD_NAME" value="testSpecialChar" />
+      <option name="METHOD_NAME" value="testUtilNameSpace" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSpringDI.testProperties" />
+        <item itemvalue="JUnit.TestSpringDI.testAutoWireByType" />
+        <item itemvalue="JUnit.TestSpringDI.testAutoWire" />
+        <item itemvalue="JUnit.TestSpringDI.testUtilNameSpace" />
         <item itemvalue="JUnit.TestSpringDI.testCNameSpace" />
-        <item itemvalue="JUnit.TestSpringDI.testPNameSpace" />
-        <item itemvalue="JUnit.TestSpringDI.testSpecialChar" />
-        <item itemvalue="JUnit.TestSpringDI.testNull" />
-        <item itemvalue="JUnit.TestSpringDI.testMapOrProperties" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +160,8 @@
       <workItem from="1701612125822" duration="13000" />
       <workItem from="1701613643605" duration="51000" />
       <workItem from="1701736236503" duration="7784000" />
+      <workItem from="1701758105812" duration="3937000" />
+      <workItem from="1701763311579" duration="12233000" />
     </task>
     <servers />
   </component>

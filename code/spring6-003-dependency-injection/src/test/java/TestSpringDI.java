@@ -1,5 +1,7 @@
 import bean.*;
-import jbdc.MyDataSource;
+import jdbc.MyDataSource;
+import jdbc.MyDataSource1;
+import jdbc.MyDataSource2;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -7,10 +9,54 @@ import service.CustomerService;
 import service.OrderService;
 import service.UserService;
 
-import java.lang.Math;
 import java.util.Date;
 
 public class TestSpringDI {
+    /**
+     * 测试引入外部属性配置文件
+     */
+    @Test
+    public void testProperties(){
+        ApplicationContext ac = new ClassPathXmlApplicationContext("spring-properties.xml");
+        MyDataSource ds = ac.getBean("ds", MyDataSource.class);
+        System.out.println(ds);
+    }
+
+
+    /**
+     * 测试自动装配之byType
+     *  基于set注入
+     */
+    @Test
+    public void testAutoWireByType(){
+        ApplicationContext ac = new ClassPathXmlApplicationContext("spring-autowire.xml");
+        CustomerService cs = ac.getBean("cs", CustomerService.class);
+        cs.save();
+    }
+
+    /**
+     * 测试自动装配之byName
+     *  基于set注入
+     */
+    @Test
+    public void testAutoWireByName(){
+        ApplicationContext ac = new ClassPathXmlApplicationContext("spring-autowire.xml");
+        OrderService orderService = ac.getBean("orderServiceBean", OrderService.class);
+        orderService.generate();
+    }
+
+    /**
+     * 测试util命名空间
+     */
+    @Test
+    public void testUtilNameSpace(){
+        ApplicationContext ac = new ClassPathXmlApplicationContext("spring-util.xml");
+        MyDataSource1 mds1 = ac.getBean("mds1", MyDataSource1.class);
+        MyDataSource2 mds2 = ac.getBean("mds2", MyDataSource2.class);
+        System.out.println(mds1);
+        System.out.println(mds2);
+    }
+
     /**
      * 测试C命名空间
      *      底层调用构造器->简化构造器注入

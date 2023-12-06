@@ -12,6 +12,9 @@
           <file>file://$MODULE_DIR$/src/main/resources/spring-collection.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/spring-p.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/spring-c.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-util.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-autowire.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-properties.xml</file>
         </fileset>
       </configuration>
     </facet>

@@ -23,4 +23,12 @@ public class CustomerService {
         userDao.insert();
         vipDao.insert();
     }
+
+    public void setUserDao(UserDao userDao) {
+        this.userDao = userDao;
+    }
+
+    public void setVipDao(VipDao vipDao) {
+        this.vipDao = vipDao;
+    }
 }

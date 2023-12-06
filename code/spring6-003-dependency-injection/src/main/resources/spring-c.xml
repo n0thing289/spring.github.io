@@ -8,6 +8,6 @@
         第一步,开启c命名空间xmlns:c="http://www.springframework.org/schema/c"
         第二步,使用下标/参数名 ,可以使用非简单类型
     -->
-    <bean id="peopleBean" class="bean.People" c:_0="homo" c:_1="20" c:_2="false"/>
-<!--    <bean id="peopleBean" class="bean.People" c:name="LGBT" c:age="20" c:sex="false"/>-->
+<!--    <bean id="peopleBean" class="bean.People" c:_0="homo" c:_1="20" c:_2="false"/>-->
+    <bean id="peopleBean" class="bean.People" c:name="LGBT" c:age="20" c:sex="false"/>
 </beans>

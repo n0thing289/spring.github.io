@@ -1,4 +1,4 @@
-package jbdc;
+package jdbc;
 
 import javax.sql.DataSource;
 import java.io.PrintWriter;
