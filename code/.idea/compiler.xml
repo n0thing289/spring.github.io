@@ -9,12 +9,14 @@
         <module name="spring6-001-revelation" />
         <module name="spring6-003-dependency-injection" />
         <module name="spring6-002-first" />
+        <module name="spring6-004-scope" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring6-001-revelation" target="17" />
       <module name="spring6-002-first" target="17" />
       <module name="spring6-003-dependency-injection" target="17" />
+      <module name="spring6-004-scope" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

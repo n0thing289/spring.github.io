@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a7e8c3-588c-4d6b-823c-3dffb2515365" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/spring6-003-dependency-injection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/spring6-003-dependency-injection.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/jbdc/MyDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/jdbc/MyDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/set-di.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/set-di.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/test/java/TestSpringDI.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/test/java/TestSpringDI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/target/classes/jbdc/MyDataSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/target/classes/set-di.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/target/classes/set-di.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/target/classes/spring-c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/target/classes/spring-c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/target/test-classes/TestSpringDI.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/target/test-classes/TestSpringDI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring观看进度.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring观看进度.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +153,7 @@
       <workItem from="1701736236503" duration="7784000" />
       <workItem from="1701758105812" duration="3937000" />
       <workItem from="1701763311579" duration="12233000" />
+      <workItem from="1701826684802" duration="328000" />
     </task>
     <servers />
   </component>
