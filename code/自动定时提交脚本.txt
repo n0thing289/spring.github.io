@@ -7,13 +7,14 @@ git config --global credential.helper store
 其实是存储在git-credentials文件里面了
 
 二.一键提交
-@echo off
-d:
-cd D:\svngit\xxxx
-git add .
-git commit -m "daily push data-structure-and-algorithms"
-git push
-pause
+第一种方案
+    @echo off
+    d:
+    cd D:\svngit\xxxx
+    git add .
+    git commit -m "daily push data-structure-and-algorithms"
+    git push
+    pause
 
 @echo off
 @title bat 交互执行git命令
