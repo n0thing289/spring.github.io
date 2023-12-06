@@ -1,0 +1,47 @@
+一.准备阶段:
+解决git每次提交代码都要输入帐号密码
+
+git config --global credential.helper store
+再次git pull或者git push 命令，根据提示输入帐号和密码，下一次就不用输入了，
+
+其实是存储在git-credentials文件里面了
+
+二.一键提交
+@echo off
+d:
+cd D:\svngit\xxxx
+git add .
+git commit -m "daily push data-structure-and-algorithms"
+git push
+pause
+
+@echo off
+@title bat 交互执行git命令
+D:
+cd D:/git/test
+git add .
+git commit -m %date:~0,4%年%date:~5,2%月%date:~8,2%日
+
+@echo on
+set repos=("仓库路径1" "仓库路径2" "仓库路径3")
+for %%r in %repos% do (
+    cd %%~r
+    git pull
+    git add --all
+    git commit -m "脚本自动更新所有仓库"
+    git push
+    cd ..
+)
+pause
+
+三、设置定时运行
+    找到计划任务
+
+
+
+三.一键同步
+@echo off
+d:
+cd D:\svngit\xxxx
+git pull
+pause
