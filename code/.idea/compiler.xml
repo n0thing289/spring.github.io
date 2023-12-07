@@ -6,17 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring6-001-revelation" />
+        <module name="factory-method" />
+        <module name="simple-factory" />
         <module name="spring6-003-dependency-injection" />
         <module name="spring6-002-first" />
+        <module name="spring6-005-bean-instantiation" />
+        <module name="spring6-001-revelation" />
         <module name="spring6-004-scope" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="factory-method" target="17" />
+      <module name="simple-factory" target="17" />
       <module name="spring6-001-revelation" target="17" />
       <module name="spring6-002-first" target="17" />
       <module name="spring6-003-dependency-injection" target="17" />
       <module name="spring6-004-scope" target="17" />
+      <module name="spring6-005-bean-instantiation" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

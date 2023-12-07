@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--
+    scope属性有两个值
+        singleton： 如果不写scope的值，默认就是singleton
+        prototype： 这个会取消单例，每次都会调用构造方法重新new对象
+    还有其他值（需要引入mvc框架依赖：springmvc）
+        request：一次请求种一个bean
+        session：一次会话一个bean
+-->
+    <bean id="sb1" class="bean.bean.SpringBean" scope="singleton"/>
+    <bean id="sb" class="bean.bean.SpringBean" scope="prototype"/>
+</beans>

@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/factory-method/factory-method.iml" filepath="$PROJECT_DIR$/factory-method/factory-method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-factory/simple-factory.iml" filepath="$PROJECT_DIR$/simple-factory/simple-factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-001-revelation/spring6-001-revelation.iml" filepath="$PROJECT_DIR$/spring6-001-revelation/spring6-001-revelation.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-002-first/spring6-002-first.iml" filepath="$PROJECT_DIR$/spring6-002-first/spring6-002-first.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-003-dependency-injection/spring6-003-dependency-injection.iml" filepath="$PROJECT_DIR$/spring6-003-dependency-injection/spring6-003-dependency-injection.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-004-scope/spring6-004-scope.iml" filepath="$PROJECT_DIR$/spring6-004-scope/spring6-004-scope.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring6-005-bean-instantiation/spring6-005-bean-instantiation.iml" filepath="$PROJECT_DIR$/spring6-005-bean-instantiation/spring6-005-bean-instantiation.iml" />
     </modules>
   </component>
 </project>
