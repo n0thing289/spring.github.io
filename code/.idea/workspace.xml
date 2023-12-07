@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a7e8c3-588c-4d6b-823c-3dffb2515365" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory-method/factory-method.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory-method/src/main/java/GunFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-factory/simple-factory.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/spring6-005-bean-instantiation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring笔记/spring笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring笔记/spring笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-004-scope/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-004-scope/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-004-scope/spring6-004-scope.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-004-scope/spring6-004-scope.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring观看进度.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring观看进度.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/定时提交笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/定时提交笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/java/bean/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/java/bean/simple_factory/Star.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/java/bean/StarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/java/bean/simple_factory/StarFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/test/java/TestBeanInstantiation.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/test/java/TestBeanInstantiation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +79,7 @@
       <recent name="D:\编程文件\Spring老杜\spring.github.io\code\" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestBeanInstantiation.testCreateBean1">
+  <component name="RunManager" selected="JUnit.TestBeanInstantiation.testCreateBean4">
     <configuration name="TestBeanInstantiation.testCreateBean1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring6-005-bean-instantiation" />
       <option name="PACKAGE_NAME" value="" />
@@ -98,21 +90,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSpringBeanScope.testBeanScope" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-004-scope" />
+    <configuration name="TestBeanInstantiation.testCreateBean2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-005-bean-instantiation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSpringBeanScope" />
-      <option name="METHOD_NAME" value="testBeanScope" />
+      <option name="MAIN_CLASS_NAME" value="TestBeanInstantiation" />
+      <option name="METHOD_NAME" value="testCreateBean2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSpringDI.testProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-003-dependency-injection" />
+    <configuration name="TestBeanInstantiation.testCreateBean3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-005-bean-instantiation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSpringDI" />
-      <option name="METHOD_NAME" value="testProperties" />
+      <option name="MAIN_CLASS_NAME" value="TestBeanInstantiation" />
+      <option name="METHOD_NAME" value="testCreateBean3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBeanInstantiation.testCreateBean4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-005-bean-instantiation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBeanInstantiation" />
+      <option name="METHOD_NAME" value="testCreateBean4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,23 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWeaponFactory.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="simple-factory" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestWeaponFactory" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBeanInstantiation.testCreateBean4" />
+        <item itemvalue="JUnit.TestBeanInstantiation.testCreateBean3" />
+        <item itemvalue="JUnit.TestBeanInstantiation.testCreateBean2" />
         <item itemvalue="JUnit.TestBeanInstantiation.testCreateBean1" />
         <item itemvalue="JUnit.TestWeaponFactory.test (1)" />
-        <item itemvalue="JUnit.TestWeaponFactory.test" />
-        <item itemvalue="JUnit.TestSpringBeanScope.testBeanScope" />
-        <item itemvalue="JUnit.TestSpringDI.testProperties" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +162,7 @@
       <workItem from="1701763311579" duration="12233000" />
       <workItem from="1701826684802" duration="3224000" />
       <workItem from="1701846863843" duration="14784000" />
+      <workItem from="1701930808350" duration="1823000" />
     </task>
     <servers />
   </component>

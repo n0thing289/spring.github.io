@@ -1,10 +1,28 @@
 import bean.SpringBean;
-import bean.Star;
+import bean.factory_bean.Person;
+import bean.factory_method.Gun;
+import bean.simple_factory.Star;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestBeanInstantiation {
+
+    @Test
+    public void testCreateBean4(){
+        ApplicationContext ac = new ClassPathXmlApplicationContext("spring.xml");
+        Person p = ac.getBean("personBean", Person.class);
+        System.out.println(p);
+    }
+
+    @Test
+    public void testCreateBean3(){
+        ApplicationContext ac = new ClassPathXmlApplicationContext("spring.xml");
+        Gun gun = ac.getBean("gunBean", Gun.class);
+        System.out.println(gun);
+        gun.attack();
+    }
+
     @Test
     public void testCreateBean2(){
         ApplicationContext ac = new ClassPathXmlApplicationContext("spring.xml");
