@@ -14,7 +14,7 @@
     <util:properties id="prop">
         <prop key="driver">com.mysql.jdbc.driver</prop>
         <prop key="url">jdbc:mysql://localhost:3306/spring6</prop>
-        <prop key="user">root</prop>
+        <prop key="bean">root</prop>
         <prop key="password">hsp</prop>
     </util:properties>
 
@@ -33,7 +33,7 @@
 <!--            <props>-->
 <!--                <prop key="driver">com.mysql.jdbc.driver</prop>-->
 <!--                <prop key="url">jdbc:mysql://localhot:3306/spring6</prop>-->
-<!--                <prop key="user">root</prop>-->
+<!--                <prop key="bean">root</prop>-->
 <!--                <prop key="password">hsp</prop>-->
 <!--            </props>-->
 <!--        </property>-->

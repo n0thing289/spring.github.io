@@ -22,4 +22,19 @@
     <!--通过一个特殊的Bean: 工厂Bean。来返回一个普通的Bean Person对象。-->
     <!--通过FactoryBean这个工厂Bean主要是想对普通Bean进行加工处理。-->
     <bean id="personBean" class="bean.factory_bean.PersonFactory"/>
+
+    <!--FactoryBean 注入Date实战-->
+    <bean id="date" class="bean.shi_zhan_date.DateFactory">
+        <!--如果我想要自定义日期呢，生日不可能就是当下吧？-->
+        <!--传入参数,且是中国人习惯的日期格式-->
+        <property name="strDate" value="2003-01-01"/>
+    </bean>
+
+    <bean id="stu" class="bean.shi_zhan_date.Student">
+        <!--想给创建的学生对象注入日期数据-->
+        <!--如果理解成简单类型来注入,就需要字符串必须具有一定格式-->
+<!--        <property name="birth" value="Mon Oct 10 14:30:26 CST 2022"/>-->
+        <!--如果理解成非简单类型注入-->
+        <property name="birth" ref="date"/>
+    </bean>
 </beans>

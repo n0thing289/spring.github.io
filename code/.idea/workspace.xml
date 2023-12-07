@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a7e8c3-588c-4d6b-823c-3dffb2515365" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spring6-006-bean-lifecycle/spring6-006-bean-lifecycle.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring笔记/spring笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring笔记/spring笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/java/bean/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/java/bean/simple_factory/Star.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/java/bean/StarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/java/bean/simple_factory/StarFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-collection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-collection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-util.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-util.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/resources/spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/test/java/TestBeanInstantiation.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/test/java/TestBeanInstantiation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring观看进度.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring观看进度.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,17 +84,7 @@
       <recent name="D:\编程文件\Spring老杜\spring.github.io\code\" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestBeanInstantiation.testCreateBean4">
-    <configuration name="TestBeanInstantiation.testCreateBean1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-005-bean-instantiation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBeanInstantiation" />
-      <option name="METHOD_NAME" value="testCreateBean1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestBeanLifeCycle.testBeanLifeCycleFive">
     <configuration name="TestBeanInstantiation.testCreateBean2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring6-005-bean-instantiation" />
       <option name="PACKAGE_NAME" value="" />
@@ -120,11 +115,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWeaponFactory.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="factory-method" />
+    <configuration name="TestBeanInstantiation.testInjectDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-005-bean-instantiation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestWeaponFactory" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="TestBeanInstantiation" />
+      <option name="METHOD_NAME" value="testInjectDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBeanLifeCycle.testBeanLifeCycleFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-006-bean-lifecycle" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBeanLifeCycle" />
+      <option name="METHOD_NAME" value="testBeanLifeCycleFive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBeanLifeCycle.testBeanLifeCycleFive" />
+        <item itemvalue="JUnit.TestBeanInstantiation.testInjectDate" />
         <item itemvalue="JUnit.TestBeanInstantiation.testCreateBean4" />
         <item itemvalue="JUnit.TestBeanInstantiation.testCreateBean3" />
         <item itemvalue="JUnit.TestBeanInstantiation.testCreateBean2" />
-        <item itemvalue="JUnit.TestBeanInstantiation.testCreateBean1" />
-        <item itemvalue="JUnit.TestWeaponFactory.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +167,8 @@
       <workItem from="1701763311579" duration="12233000" />
       <workItem from="1701826684802" duration="3224000" />
       <workItem from="1701846863843" duration="14784000" />
-      <workItem from="1701930808350" duration="1823000" />
+      <workItem from="1701930808350" duration="2419000" />
+      <workItem from="1701938031822" duration="5564000" />
     </task>
     <servers />
   </component>

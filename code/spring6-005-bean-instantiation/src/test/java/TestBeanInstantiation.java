@@ -1,12 +1,19 @@
 import bean.SpringBean;
 import bean.factory_bean.Person;
 import bean.factory_method.Gun;
+import bean.shi_zhan_date.Student;
 import bean.simple_factory.Star;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestBeanInstantiation {
+    @Test
+    public void testInjectDate(){
+        ApplicationContext ac = new ClassPathXmlApplicationContext("spring.xml");
+        Student stu = ac.getBean("stu", Student.class);
+        System.out.println(stu);
+    }
 
     @Test
     public void testCreateBean4(){
