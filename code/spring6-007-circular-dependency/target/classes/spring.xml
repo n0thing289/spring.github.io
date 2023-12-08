@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--singLeton + setter模式下的循环依赖是没有任何问题的。-->
+    <!--singleton表示在整个Spring容器当中是单例的，独一无二的对象。-->
+<!--    <bean id="husband1" class="bean.Husband" scope="singleton">-->
+<!--        <property name="name" value="张三"/>-->
+<!--        <property name="wife" ref="wife1"/>-->
+<!--    </bean>-->
+<!--    <bean id="wife1" class="bean.Wife" scope="singleton">-->
+<!--        <property name="name" value="小红"/>-->
+<!--        <property name="husband" ref="husband1"/>-->
+<!--    </bean>-->
+    <!--
+        在singleton + setter模式下，为什么循环依赖不会出现问题，Spring是如何应对的?
+            主要的原因是，在这种模式下SpringBean的管理主要分为清晰的两个阶费:
+                第一个阶段:在Spring容器加载的时候，实例化Bean，只要其中任意一个Bean实例化之后，马上进行“曝光”[不等属性赋值就曝光]
+                第二个阶度: Bean"曝光"之后，再进行属性的赋值( 调用set 方法。)
+
+        核心解决方案是:笑例化对象和对象的再性赋值分为两个阶度来完成的
+
+        曝光: 意思大概是指, 我这个对象可以被其他对象引用(内存地址已经有了,并且可以拿到)
+        注意:只有在scope是singLeton的情况下，Bean才会采取提前“曝光”的措施。
+    -->
+
+
+
+    <!--在prototype + setter模式下的循环依赖，存在问题，会出现异常!-->
+    <!--BeanCurrentlyInCreationException 当前的Bean正在处于创建中异常..-->
+    <!-- 注意:当两个bean的scope都prototype的时候，才会出现异常。如果其中任意一个singleton的，就不会出现异常。-->
+    <bean id="husband1" class="bean.Husband" scope="prototype">
+        <property name="name" value="张三"/>
+        <property name="wife" ref="wife1"/>
+    </bean>
+    <bean id="wife1" class="bean.Wife" scope="singleton">
+        <property name="name" value="小红"/>
+        <property name="husband" ref="husband1"/>
+    </bean>
+</beans>

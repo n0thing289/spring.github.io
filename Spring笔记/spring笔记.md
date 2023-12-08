@@ -805,7 +805,7 @@ CustomerService有两个属性userDao和vipDao，待注入的属性类型是dao.
 
 加载spring容器的时候会调用配置的`所有bean`的无参构造方法
 
-默认都是单例的
+scope默认都是单例的
 
 ```xml
 <!--
@@ -826,7 +826,7 @@ CustomerService有两个属性userDao和vipDao，待注入的属性类型是dao.
  *      每一次调用getBean()方法的时候，都返回那个单例的对象
  * 2.当将bean的scope质性设置为prototype:bean是多例的。
  *      spring上下文初始化的时候，并不会初始化这些prototype的bean。
- *      每一次调用getBean()方法的时候，实例化bean对家。
+ *      每一次调用getBean()方法的时候，实例化bean对象。
  *      prototype翻泽为: 原型。
  */
 构造方法执行了
@@ -926,6 +926,25 @@ spring的Ioc实现<=工厂模式+xml解析+反射、
 # 八、bean的生命周期
 
 面试多，开发应用多
+
+要记得：
+
+- [ ] 五七十步
+- [ ] 小细节
+- [ ] 自己new对象怎么给spring管理
+
+# 九、Bean的循环依赖
+
+- [x] 两单例 + setter
+- [x] 两prototype + setter
+
+- [x] singleton prototype + setter
+
+  
+
+- [x] 两单例 + constructor
+
+- [ ] 根源码
 
 
 

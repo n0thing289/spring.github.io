@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--构造注入，这种循坏依赖有没有问题? -->
+    <!--注意:基于构造注入的方式下产生的循环依赖也是无法解决的，所以编写代码时一定要注意。-->
+    <bean id="husband2" class="bean.Husband" scope="singleton">
+        <constructor-arg name="name" value="灰太狼"/>
+        <constructor-arg name="wife" ref="wife2"/>
+    </bean>
+    <bean id="wife2" class="bean.Wife" scope="singleton">
+        <constructor-arg name="name" value="红太狼"/>
+        <constructor-arg name="husband" ref="husband2"/>
+    </bean>
+
+
+    <!--
+        跟源码
+            AbstractAutowireCapableBeanFactory
+                doCreateBean()
+                    Object bean = instanceWrapper.getWrappedInstance();
+                    ...
+                    this.addSingletonFactory(beanName, () -> {
+                        return this.getEarlyBeanReference(beanName, mbd, bean);
+                    });
+
+                    ...
+                    this.populateBean(beanName, mbd, instanceWrapper);
+    -->
+</beans>

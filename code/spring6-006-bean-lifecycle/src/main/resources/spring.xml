@@ -6,10 +6,10 @@
     <!--配置Bean后处理器-->
     <!--注意: 这个Bean后处理器将作用于整个配置文件中所有的bean。-->
     <bean class="bean.LogBeanPostProcessor"/>
-    <bean id="vip" class="bean.Vip"/>
+<!--    <bean id="vip" class="bean.Vip"/>-->
 
     <!--需要手动指定初始化方法和销毁方法-->
-    <bean id="userBean" class="bean.User" init-method="init" destroy-method="destroy">
+    <bean id="userBean" class="bean.User" init-method="initBean" destroy-method="destroyBean">
         <property name="name" value="jack"/>
     </bean>
 </beans>

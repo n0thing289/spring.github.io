@@ -5,16 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a7e8c3-588c-4d6b-823c-3dffb2515365" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring6-006-bean-lifecycle/spring6-006-bean-lifecycle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-reflect/review-reflect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-007-circular-dependency/spring6-007-circular-dependency.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring笔记/spring笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring笔记/spring笔记.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-collection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-collection.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-util.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-util.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/main/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/test/java/TestBeanInstantiation.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-005-bean-instantiation/src/test/java/TestBeanInstantiation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-006-bean-lifecycle/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-006-bean-lifecycle/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-006-bean-lifecycle/src/main/java/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-006-bean-lifecycle/src/main/java/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-006-bean-lifecycle/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-006-bean-lifecycle/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-006-bean-lifecycle/src/test/java/TestBeanLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-006-bean-lifecycle/src/test/java/TestBeanLifeCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-006-bean-lifecycle/target/classes/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-006-bean-lifecycle/target/classes/bean/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-006-bean-lifecycle/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-006-bean-lifecycle/target/classes/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-006-bean-lifecycle/target/test-classes/TestBeanLifeCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-006-bean-lifecycle/target/test-classes/TestBeanLifeCycle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring观看进度.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring观看进度.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,52 +88,52 @@
       <recent name="D:\编程文件\Spring老杜\spring.github.io\code\" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestBeanLifeCycle.testBeanLifeCycleFive">
-    <configuration name="TestBeanInstantiation.testCreateBean2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-005-bean-instantiation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBeanInstantiation" />
-      <option name="METHOD_NAME" value="testCreateBean2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBeanInstantiation.testCreateBean3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-005-bean-instantiation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBeanInstantiation" />
-      <option name="METHOD_NAME" value="testCreateBean3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBeanInstantiation.testCreateBean4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-005-bean-instantiation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBeanInstantiation" />
-      <option name="METHOD_NAME" value="testCreateBean4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBeanInstantiation.testInjectDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-005-bean-instantiation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBeanInstantiation" />
-      <option name="METHOD_NAME" value="testInjectDate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBeanLifeCycle.testBeanLifeCycleFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestReflect.test2">
+    <configuration name="TestBeanLifeCycle.testRegisterBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring6-006-bean-lifecycle" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestBeanLifeCycle" />
-      <option name="METHOD_NAME" value="testBeanLifeCycleFive" />
+      <option name="METHOD_NAME" value="testRegisterBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCircularDependency.testCD1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-007-circular-dependency" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCircularDependency" />
+      <option name="METHOD_NAME" value="testCD1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCircularDependency.testCD2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-007-circular-dependency" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCircularDependency" />
+      <option name="METHOD_NAME" value="testCD2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestReflect.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="review-reflect" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestReflect" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestReflect.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="review-reflect" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestReflect" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestBeanLifeCycle.testBeanLifeCycleFive" />
-        <item itemvalue="JUnit.TestBeanInstantiation.testInjectDate" />
-        <item itemvalue="JUnit.TestBeanInstantiation.testCreateBean4" />
-        <item itemvalue="JUnit.TestBeanInstantiation.testCreateBean3" />
-        <item itemvalue="JUnit.TestBeanInstantiation.testCreateBean2" />
+        <item itemvalue="JUnit.TestReflect.test2" />
+        <item itemvalue="JUnit.TestReflect.test" />
+        <item itemvalue="JUnit.TestCircularDependency.testCD2" />
+        <item itemvalue="JUnit.TestCircularDependency.testCD1" />
+        <item itemvalue="JUnit.TestBeanLifeCycle.testRegisterBean" />
       </list>
     </recent_temporary>
   </component>
@@ -168,11 +172,34 @@
       <workItem from="1701826684802" duration="3224000" />
       <workItem from="1701846863843" duration="14784000" />
       <workItem from="1701930808350" duration="2419000" />
-      <workItem from="1701938031822" duration="5564000" />
+      <workItem from="1701938031822" duration="13519000" />
+      <workItem from="1701999891821" duration="4630000" />
+      <workItem from="1702026169706" duration="1965000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../Myapps/maven/maven_repository/org/springframework/spring-beans/6.0.0/spring-beans-6.0.0.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>345</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../Myapps/maven/maven_repository/org/springframework/spring-beans/6.0.0/spring-beans-6.0.0.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>369</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../Myapps/maven/maven_repository/org/springframework/spring-beans/6.0.0/spring-beans-6.0.0.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>377</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
