@@ -12,6 +12,7 @@
         <module name="spring6-003-dependency-injection" />
         <module name="spring6-002-first" />
         <module name="spring6-006-bean-lifecycle" />
+        <module name="myspring" />
         <module name="spring6-005-bean-instantiation" />
         <module name="review-reflect" />
         <module name="spring6-001-revelation" />
@@ -20,6 +21,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="factory-method" target="17" />
+      <module name="myspring" target="17" />
       <module name="review-reflect" target="17" />
       <module name="simple-factory" target="17" />
       <module name="spring6-001-revelation" target="17" />

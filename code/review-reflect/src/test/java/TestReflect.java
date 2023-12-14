@@ -1,9 +1,42 @@
 import org.junit.Test;
 import reflect.SomeService;
+import reflect.User;
 
+import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 public class TestReflect {
+
+    @Test
+    public void test4()throws Exception{
+        /*
+         * 需求:
+         *      假设你现在已知以下信息:
+         *          1.有这样一个类，类名叫做: com.powernode.reflect.User
+         *          2.这个类符合javabean规范。质性私有化，对外提供公开的setter和getter方法
+         *          3. 你还知道这个类当中有一个属性，属性的名字叫做 age
+         *          4.并且你还知道age 质性的类型是int美型。
+         * 请使用反射机制调用相关方法，给User对象的age 属性赋值
+          */
+        String classPath = "reflect.User";
+        String propertyName = "age";
+        //获取类的字节码对象
+        Class<?> clazz = Class.forName(classPath);
+        //从字节码对象中拿到set方法对象
+        String setMethodName = "set" + propertyName.toUpperCase().charAt(0) + propertyName.substring(1);
+        //更具属性获取属性类型 -> 参数的类型
+        Field field = clazz.getDeclaredField(propertyName);
+        Method setMethod = clazz.getDeclaredMethod(setMethodName,field.getType());
+        //创建对象
+        Object user = clazz.getDeclaredConstructor().newInstance();
+        //调用方法
+        setMethod.invoke(user, 30);
+
+        //打印以下
+        System.out.println(user);
+    }
+
+
     /**
      * 使用反射机制
      */
