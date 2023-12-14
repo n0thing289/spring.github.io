@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a7e8c3-588c-4d6b-823c-3dffb2515365" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myspring/myspring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring笔记/spring笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring笔记/spring笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/review-reflect/src/test/java/TestReflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/review-reflect/src/test/java/TestReflect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/review-reflect/target/test-classes/TestReflect.class" beforeDir="false" afterPath="$PROJECT_DIR$/review-reflect/target/test-classes/TestReflect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring观看进度.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring观看进度.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspring/src/main/resources/myspring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myspring/src/main/resources/myspring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -171,6 +161,7 @@
       <workItem from="1701938031822" duration="13519000" />
       <workItem from="1701999891821" duration="4630000" />
       <workItem from="1702026169706" duration="5735000" />
+      <workItem from="1702555877241" duration="859000" />
     </task>
     <servers />
   </component>

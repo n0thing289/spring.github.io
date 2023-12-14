@@ -10,5 +10,5 @@
         <property name="userDao" ref="userDaoBean"/>
     </bean>
 
-    <bean id="userDaoBean" class="com.powernode.myspring.bean.UserDao"></bean>
+    <bean id="userDaoBean" class="com.powernode.myspring.bean.UserDao"/>
 </beans>
