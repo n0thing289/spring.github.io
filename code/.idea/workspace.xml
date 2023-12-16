@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a7e8c3-588c-4d6b-823c-3dffb2515365" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/dynamic-proxy-jdk.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-annotation/review-annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/spring6-008-ioc-annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-proxy/static-proxy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring笔记/spring笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring笔记/spring笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspring/myspring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myspring/myspring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myspring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspring/src/main/java/org/springframework/core/ClassPathXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/myspring/src/main/java/org/springframework/core/ClassPathXmlApplicationContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myspring/src/main/resources/myspring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myspring/src/main/resources/myspring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring观看进度.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring观看进度.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,7 +71,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring6-004-scope/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -67,59 +80,57 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\编程文件\Spring老杜\spring.github.io\code\dynamic-proxy-jdk\src\main\java" />
       <recent name="D:\编程文件\Spring老杜\spring.github.io\code\spring6-004-scope\src\main\resources" />
       <recent name="D:\编程文件\Spring老杜\spring.github.io\code\spring6-003-dependency-injection\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\编程文件\Spring老杜\spring.github.io\code\" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestReflect.test4">
-    <configuration name="TestCircularDependency.testCD1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-007-circular-dependency" />
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="dynamic-proxy-jdk" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="static-proxy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestIoCAnnotation.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-008-ioc-annotation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCircularDependency" />
-      <option name="METHOD_NAME" value="testCD1" />
+      <option name="MAIN_CLASS_NAME" value="TestIoCAnnotation" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCircularDependency.testCD2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-007-circular-dependency" />
+    <configuration name="TestIoCAnnotation.testBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-008-ioc-annotation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCircularDependency" />
-      <option name="METHOD_NAME" value="testCD2" />
+      <option name="MAIN_CLASS_NAME" value="TestIoCAnnotation" />
+      <option name="METHOD_NAME" value="testBean" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReflect.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="review-reflect" />
+    <configuration name="TestIoCAnnotation.testInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-008-ioc-annotation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestReflect" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestReflect.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="review-reflect" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestReflect" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestReflect.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="review-reflect" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestReflect" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="MAIN_CLASS_NAME" value="TestIoCAnnotation" />
+      <option name="METHOD_NAME" value="testInject" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestReflect.test4" />
-        <item itemvalue="JUnit.TestReflect.test2" />
-        <item itemvalue="JUnit.TestReflect.test" />
-        <item itemvalue="JUnit.TestCircularDependency.testCD2" />
-        <item itemvalue="JUnit.TestCircularDependency.testCD1" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="JUnit.TestIoCAnnotation.testInject" />
+        <item itemvalue="JUnit.TestIoCAnnotation.testBean" />
+        <item itemvalue="JUnit.TestIoCAnnotation.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +172,11 @@
       <workItem from="1701938031822" duration="13519000" />
       <workItem from="1701999891821" duration="4630000" />
       <workItem from="1702026169706" duration="5735000" />
-      <workItem from="1702555877241" duration="859000" />
+      <workItem from="1702555877241" duration="3436000" />
+      <workItem from="1702605962418" duration="4975000" />
+      <workItem from="1702622397918" duration="3605000" />
+      <workItem from="1702646082253" duration="864000" />
+      <workItem from="1702713192733" duration="5678000" />
     </task>
     <servers />
   </component>
@@ -186,6 +201,10 @@
           <line>377</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoSuchMethodException" package="java.lang" />
+          <option name="timeStamp" value="7" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

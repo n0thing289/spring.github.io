@@ -955,7 +955,26 @@ spring的Ioc实现<=工厂模式+xml解析+反射、
 
 spring的Ioc实现<=工厂模式+xml解析+反射、
 
+# 十二、注解是开发
 
+自定义注解
 
+![image-20231215143524927](./spring笔记imgs/image-20231215143524927.png)
 
+反射获取注解
 
+![image-20231215145958416](./spring笔记imgs/image-20231215145958416.png)
+
+给定一个目录
+
+![image-20231215151443981](./spring笔记imgs/image-20231215151443981.png)
+
+![image-20231215151600802](./spring笔记imgs/image-20231215151600802.png)
+
+# 代理模式
+
+![image-20231215205714901](./spring笔记imgs/image-20231215205714901.png)
+
+ ![image-20231215214958181](./spring笔记imgs/image-20231215214958181.png)
+
+![image-20231215215040327](./spring笔记imgs/image-20231215215040327.png)
