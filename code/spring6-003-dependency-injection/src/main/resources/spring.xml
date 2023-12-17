@@ -11,7 +11,7 @@
     <!--    配置UserDao-->
     <bean id="userDaoBean" class="dao.UserDao"/>
     <!--    配置UserService-->
-    <bean id="userServiceBean" class="service.UserService">
+    <bean id="userServiceBean" class="service.service.UserService">
         <!--想让spring调用对应的set方法,需要配置property标签-->
         <!--name: set方法名去掉set,再把首字母小写-->
         <!--ref: 指定要注入的bean的id-->

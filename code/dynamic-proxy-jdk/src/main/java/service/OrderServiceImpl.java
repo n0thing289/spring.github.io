@@ -53,4 +53,10 @@ public class OrderServiceImpl implements OrderService {
         }
         System.out.println("订单已修改");
     }
+
+    @Override
+    public String getName() {
+        System.out.println("getName()执行");
+        return "藏三";
+    }
 }

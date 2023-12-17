@@ -4,7 +4,7 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 /**
- *专门负责计时的一个调用处理器对象
+ * 专门负责计时的一个调用处理器对象
  * 在这个调用处理器当中编写计时相关的增强代码
  * 这个调用处理器只需要写一个就行了。
  */
@@ -36,11 +36,14 @@ public class TimerInvocationHandler implements InvocationHandler {
          */
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        System.out.println("start~ ");
+        System.out.println("start");
+        long start = System.currentTimeMillis();
 
         Object result = method.invoke(target, args);
 
-        System.out.println("end");
-        return null;
+        long end = System.currentTimeMillis();
+        System.out.println("end耗时: " + (end - start) + "\n");
+        //注意这个invoke 方法的返回值，如界代理对象调用代理方法之后，需要返回结果的话，inyoke 方法必须将日标对象的目标方法执行结果继结饭回
+        return result;
     }
 }

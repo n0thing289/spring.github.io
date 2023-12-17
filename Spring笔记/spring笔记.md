@@ -978,3 +978,7 @@ spring的Ioc实现<=工厂模式+xml解析+反射、
  ![image-20231215214958181](./spring笔记imgs/image-20231215214958181.png)
 
 ![image-20231215215040327](./spring笔记imgs/image-20231215215040327.png)
+
+# 面向切面编程
+
+![image-20231216222638105](./spring笔记imgs/image-20231216222638105.png)

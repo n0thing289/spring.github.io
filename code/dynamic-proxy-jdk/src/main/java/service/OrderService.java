@@ -23,4 +23,6 @@ public interface OrderService {
      * 修改订单
      */
     void modify();
+
+    String getName();
 }

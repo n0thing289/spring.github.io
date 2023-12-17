@@ -5,19 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a7e8c3-588c-4d6b-823c-3dffb2515365" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/dynamic-proxy-jdk.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review-annotation/review-annotation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/spring6-008-ioc-annotation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static-proxy/static-proxy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_6_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-proxy-cglib/dynamic-proxy-cglib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-010-spring-aspectj-aop-anno/spring6-010-spring-aspectj-aop-anno.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-012-aop-realapp/spring6-012-aop-realapp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring笔记/spring笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring笔记/spring笔记.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspring/myspring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myspring/myspring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myspring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspring/src/main/java/org/springframework/core/ClassPathXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/myspring/src/main/java/org/springframework/core/ClassPathXmlApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/service/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/service/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/service/TimerInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/service/TimerInvocationHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-proxy-jdk/target/classes/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/target/classes/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-proxy-jdk/target/classes/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/target/classes/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-proxy-jdk/target/classes/service/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/target/classes/service/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-proxy-jdk/target/classes/service/TimerInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/target/classes/service/TimerInvocationHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myspring/src/main/resources/myspring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myspring/src/main/resources/myspring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring观看进度.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring观看进度.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -91,46 +100,52 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client" />
-      <module name="dynamic-proxy-jdk" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client" />
-      <module name="static-proxy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestIoCAnnotation.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-008-ioc-annotation" />
+  <component name="RunManager" selected="JUnit.TestRealApp.testSecurityLog">
+    <configuration name="TestRealApp.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-012-aop-realapp" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestIoCAnnotation" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="TestRealApp" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIoCAnnotation.testBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-008-ioc-annotation" />
+    <configuration name="TestRealApp.testRealApp1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-012-aop-realapp" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestIoCAnnotation" />
-      <option name="METHOD_NAME" value="testBean" />
+      <option name="MAIN_CLASS_NAME" value="TestRealApp" />
+      <option name="METHOD_NAME" value="testRealApp1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIoCAnnotation.testInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-008-ioc-annotation" />
+    <configuration name="TestRealApp.testSecurityLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-012-aop-realapp" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestIoCAnnotation" />
-      <option name="METHOD_NAME" value="testInject" />
+      <option name="MAIN_CLASS_NAME" value="TestRealApp" />
+      <option name="METHOD_NAME" value="testSecurityLog" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpringAOP.testBefore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-010-spring-aspectj-aop-anno" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSpringAOP" />
+      <option name="METHOD_NAME" value="testBefore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpringAOP.testNoXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-010-spring-aspectj-aop-anno" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSpringAOP" />
+      <option name="METHOD_NAME" value="testNoXml" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="JUnit.TestIoCAnnotation.testInject" />
-        <item itemvalue="JUnit.TestIoCAnnotation.testBean" />
-        <item itemvalue="JUnit.TestIoCAnnotation.test1" />
+        <item itemvalue="JUnit.TestRealApp.testSecurityLog" />
+        <item itemvalue="JUnit.TestRealApp.test" />
+        <item itemvalue="JUnit.TestRealApp.testRealApp1" />
+        <item itemvalue="JUnit.TestSpringAOP.testNoXml" />
+        <item itemvalue="JUnit.TestSpringAOP.testBefore" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +191,8 @@
       <workItem from="1702605962418" duration="4975000" />
       <workItem from="1702622397918" duration="3605000" />
       <workItem from="1702646082253" duration="864000" />
-      <workItem from="1702713192733" duration="5678000" />
+      <workItem from="1702713192733" duration="9987000" />
+      <workItem from="1702797185885" duration="8833000" />
     </task>
     <servers />
   </component>

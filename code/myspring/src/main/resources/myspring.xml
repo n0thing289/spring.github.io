@@ -6,7 +6,7 @@
         <property name="age" value="30"></property>
     </bean>
 
-    <bean id="userService" class="com.powernode.myspring.bean.UserService">
+    <bean id="userService" class="com.powernode.myspring.bean.service.UserService">
         <property name="userDao" ref="userDaoBean"/>
     </bean>
 

@@ -9,6 +9,7 @@
         <module name="simple-factory" />
         <module name="spring6-007-circular-dependency" />
         <module name="spring6-002-first" />
+        <module name="spring6-012-aop-realapp" />
         <module name="spring6-005-bean-instantiation" />
         <module name="dynamic-proxy-jdk" />
         <module name="spring6-004-scope" />
@@ -18,12 +19,15 @@
         <module name="spring6-006-bean-lifecycle" />
         <module name="myspring" />
         <module name="spring6-008-ioc-annotation" />
+        <module name="spring6-010-spring-aspectj-aop-anno" />
         <module name="review-reflect" />
         <module name="spring6-001-revelation" />
         <module name="static-proxy" />
+        <module name="dynamic-proxy-cglib" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dynamic-proxy-cglib" target="17" />
       <module name="dynamic-proxy-jdk" target="17" />
       <module name="factory-method" target="17" />
       <module name="myspring" target="17" />
@@ -38,6 +42,8 @@
       <module name="spring6-006-bean-lifecycle" target="17" />
       <module name="spring6-007-circular-dependency" target="17" />
       <module name="spring6-008-ioc-annotation" target="17" />
+      <module name="spring6-010-spring-aspectj-aop-anno" target="17" />
+      <module name="spring6-012-aop-realapp" target="17" />
       <module name="static-proxy" target="17" />
     </bytecodeTargetLevel>
   </component>

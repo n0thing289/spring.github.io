@@ -29,6 +29,7 @@ public class Client {
         os.generate();
         os.detail();
         os.modify();
+        System.out.println(os.getName());
         /*
         1. newProxyInstance 翻译为:新建代理对象
             也就是说，通过调用这个方法可以创建代理对象。

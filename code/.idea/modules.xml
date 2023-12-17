@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dynamic-proxy-cglib/dynamic-proxy-cglib.iml" filepath="$PROJECT_DIR$/dynamic-proxy-cglib/dynamic-proxy-cglib.iml" />
       <module fileurl="file://$PROJECT_DIR$/dynamic-proxy-jdk/dynamic-proxy-jdk.iml" filepath="$PROJECT_DIR$/dynamic-proxy-jdk/dynamic-proxy-jdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory-method/factory-method.iml" filepath="$PROJECT_DIR$/factory-method/factory-method.iml" />
       <module fileurl="file://$PROJECT_DIR$/myspring/myspring.iml" filepath="$PROJECT_DIR$/myspring/myspring.iml" />
@@ -16,6 +17,8 @@
       <module fileurl="file://$PROJECT_DIR$/spring6-006-bean-lifecycle/spring6-006-bean-lifecycle.iml" filepath="$PROJECT_DIR$/spring6-006-bean-lifecycle/spring6-006-bean-lifecycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-007-circular-dependency/spring6-007-circular-dependency.iml" filepath="$PROJECT_DIR$/spring6-007-circular-dependency/spring6-007-circular-dependency.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-008-ioc-annotation/spring6-008-ioc-annotation.iml" filepath="$PROJECT_DIR$/spring6-008-ioc-annotation/spring6-008-ioc-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring6-010-spring-aspectj-aop-anno/spring6-010-spring-aspectj-aop-anno.iml" filepath="$PROJECT_DIR$/spring6-010-spring-aspectj-aop-anno/spring6-010-spring-aspectj-aop-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring6-012-aop-realapp/spring6-012-aop-realapp.iml" filepath="$PROJECT_DIR$/spring6-012-aop-realapp/spring6-012-aop-realapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/static-proxy/static-proxy.iml" filepath="$PROJECT_DIR$/static-proxy/static-proxy.iml" />
     </modules>
   </component>
