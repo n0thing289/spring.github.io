@@ -5,28 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a7e8c3-588c-4d6b-823c-3dffb2515365" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_6_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-proxy-cglib/dynamic-proxy-cglib.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring6-010-spring-aspectj-aop-anno/spring6-010-spring-aspectj-aop-anno.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring6-012-aop-realapp/spring6-012-aop-realapp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring笔记/spring笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring笔记/spring笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_2_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_6_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_6_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_6_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-013-tx-bank/spring6-013-tx-bank.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-015-junit/spring6-015-junit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-016-sm/spring6-016-sm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/service/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/service/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/service/TimerInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java/service/TimerInvocationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-proxy-jdk/target/classes/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/target/classes/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-proxy-jdk/target/classes/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/target/classes/service/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-proxy-jdk/target/classes/service/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/target/classes/service/OrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-proxy-jdk/target/classes/service/TimerInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-proxy-jdk/target/classes/service/TimerInvocationHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspring/src/main/resources/myspring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myspring/src/main/resources/myspring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring观看进度.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring观看进度.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +41,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Mybatis的SQL映射文件" />
+        <option value="Mybatis核心配置文件" />
         <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
@@ -76,19 +81,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dynamic-proxy-jdk/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring6-013-tx-bank/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\编程文件\Spring老杜\spring.github.io\code\spring6-013-tx-bank\src\main\resources" />
       <recent name="D:\编程文件\Spring老杜\spring.github.io\code\dynamic-proxy-jdk\src\main\java" />
       <recent name="D:\编程文件\Spring老杜\spring.github.io\code\spring6-004-scope\src\main\resources" />
       <recent name="D:\编程文件\Spring老杜\spring.github.io\code\spring6-003-dependency-injection\src\main\resources" />
@@ -100,7 +107,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRealApp.testSecurityLog">
+  <component name="RunManager" selected="JUnit.TestSpringMybatis.testSM">
     <configuration name="TestRealApp.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring6-012-aop-realapp" />
       <option name="PACKAGE_NAME" value="" />
@@ -131,21 +138,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSpringAOP.testBefore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-010-spring-aspectj-aop-anno" />
+    <configuration name="TestSpringMybatis.testSM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-016-sm" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSpringAOP" />
-      <option name="METHOD_NAME" value="testBefore" />
+      <option name="MAIN_CLASS_NAME" value="TestSpringMybatis" />
+      <option name="METHOD_NAME" value="testSM" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSpringAOP.testNoXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-010-spring-aspectj-aop-anno" />
+    <configuration name="TestTxBank.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-013-tx-bank" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSpringAOP" />
-      <option name="METHOD_NAME" value="testNoXml" />
+      <option name="MAIN_CLASS_NAME" value="TestTxBank" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSpringMybatis.testSM" />
+        <item itemvalue="JUnit.TestTxBank.test" />
         <item itemvalue="JUnit.TestRealApp.testSecurityLog" />
         <item itemvalue="JUnit.TestRealApp.test" />
         <item itemvalue="JUnit.TestRealApp.testRealApp1" />
-        <item itemvalue="JUnit.TestSpringAOP.testNoXml" />
-        <item itemvalue="JUnit.TestSpringAOP.testBefore" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +199,8 @@
       <workItem from="1702622397918" duration="3605000" />
       <workItem from="1702646082253" duration="864000" />
       <workItem from="1702713192733" duration="9987000" />
-      <workItem from="1702797185885" duration="8833000" />
+      <workItem from="1702797185885" duration="18004000" />
+      <workItem from="1702867354292" duration="11679000" />
     </task>
     <servers />
   </component>

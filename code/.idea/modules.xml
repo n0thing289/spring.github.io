@@ -19,6 +19,9 @@
       <module fileurl="file://$PROJECT_DIR$/spring6-008-ioc-annotation/spring6-008-ioc-annotation.iml" filepath="$PROJECT_DIR$/spring6-008-ioc-annotation/spring6-008-ioc-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-010-spring-aspectj-aop-anno/spring6-010-spring-aspectj-aop-anno.iml" filepath="$PROJECT_DIR$/spring6-010-spring-aspectj-aop-anno/spring6-010-spring-aspectj-aop-anno.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-012-aop-realapp/spring6-012-aop-realapp.iml" filepath="$PROJECT_DIR$/spring6-012-aop-realapp/spring6-012-aop-realapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring6-013-tx-bank/spring6-013-tx-bank.iml" filepath="$PROJECT_DIR$/spring6-013-tx-bank/spring6-013-tx-bank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring6-015-junit/spring6-015-junit.iml" filepath="$PROJECT_DIR$/spring6-015-junit/spring6-015-junit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring6-016-sm/spring6-016-sm.iml" filepath="$PROJECT_DIR$/spring6-016-sm/spring6-016-sm.iml" />
       <module fileurl="file://$PROJECT_DIR$/static-proxy/static-proxy.iml" filepath="$PROJECT_DIR$/static-proxy/static-proxy.iml" />
     </modules>
   </component>
