@@ -12,7 +12,6 @@ import java.util.List;
 public class AccountServiceImpl implements AccountService {
 
     @Autowired
-    @Qualifier("accountMapper")
     private AccountMapper accountMapper;
 
     @Override

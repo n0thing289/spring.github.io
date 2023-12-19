@@ -58,11 +58,11 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
-        <!-- Spring整合ORM -->
+        <!--    logback-->
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-orm</artifactId>
-            <version>5.3.3</version>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.11</version>
         </dependency>
 
     </dependencies>
