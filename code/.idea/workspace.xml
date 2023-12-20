@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a7e8c3-588c-4d6b-823c-3dffb2515365" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-016-sm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-016-sm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-016-sm/spring6-016-sm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-016-sm/spring6-016-sm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-016-sm/src/main/java/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-016-sm/src/main/java/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-016-sm/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-016-sm/src/main/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-016-sm/target/classes/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-016-sm/target/classes/service/impl/AccountServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-016-sm/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-016-sm/target/classes/spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,6 +180,9 @@
       <workItem from="1702908752655" duration="54000" />
       <workItem from="1702954540053" duration="1204000" />
       <workItem from="1702968024330" duration="7000" />
+      <workItem from="1702996824733" duration="170000" />
+      <workItem from="1702997487115" duration="397000" />
+      <workItem from="1703042565884" duration="3000" />
     </task>
     <servers />
   </component>
